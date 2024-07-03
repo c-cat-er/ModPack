@@ -1,0 +1,16 @@
+modpack 專案
+├── 專案說明
+│   └── 客製化電商網站。
+├── 專案架構
+│   ├── 語言: C#、LINQ。
+│   ├── 框架: ASP.NET Core\MVC。
+│   ├── 套件: Session、JWT、PageList、SignalR、Chartjs。
+│   └── 用到技術: Partial View、AJAX、Fetch-API、RESTful-API。
+├── 專案流程
+│   ├── ...
+│   └── ...
+
+
+│   │   ├── appsetings.json 設置JWT
+│   │   ├── Microsoft.AspNetCore.Authentication.JwtBearer //用於 JWT 身份驗證擴展包。
+│   │   ├── System.IdentityModel.Tokens.Jwt ///用於創建和處理
