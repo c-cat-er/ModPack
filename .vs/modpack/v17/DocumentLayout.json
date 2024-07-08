@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\views\\adminemployeeinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\user\\documents\\github\\modpack\\modpack\\views\\adminemployeeinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\views\\adminemployeeinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpackfront\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackfront\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|solutionrelative:modpackfront\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\views\\adminemployeeinfo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\views\\adminemployeeinfo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\views\\adminemployeeinfo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|solutionrelative:modpackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpackapi\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackapi\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|solutionrelative:modpackapi\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\views\\adminimagecarousel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\views\\adminimagecarousel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\views\\adminimagecarousel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpackapi\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackapi\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52804EC-572C-4E58-9AC7-AFC8A5684603}|modpackApi\\modpackApi.csproj|solutionrelative:modpackapi\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\views\\adminuser\\loginjwt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\views\\adminuser\\loginjwt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\views\\adminuser\\loginjwt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpackfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F0A4A38D-8573-4941-9622-501BBE42BBB0}|modpackFront\\modpackFront.csproj|solutionrelative:modpackfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|c:\\users\\gn055\\onedrive\\\u6587\u4EF6\\github\\mypublicwork\\program\\ispan\\finalwork\\modpack\\modpack\\views\\adminuser\\login2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\views\\adminuser\\login2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{163C967C-2CA4-4F65-9706-7B9447965FAA}|modpack\\modpack.csproj|solutionrelative:modpack\\views\\adminuser\\login2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -72,23 +72,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Program.cs",
               "RelativeDocumentMoniker": "modpack\\Program.cs",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Program.cs",
               "RelativeToolTip": "modpack\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T10:02:32.01Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
               "RelativeDocumentMoniker": "modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
               "RelativeToolTip": "modpack\\Views\\AdminEmployeeInfo\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -99,9 +98,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Program.cs",
               "RelativeDocumentMoniker": "modpackApi\\Program.cs",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Program.cs",
               "RelativeToolTip": "modpackApi\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAwwDIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +110,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
               "RelativeDocumentMoniker": "modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
               "RelativeToolTip": "modpack\\Views\\AdminEmployeeInfo\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -123,9 +122,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "modpackFront\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "modpackFront\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,9 +134,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\appsettings.json",
               "RelativeDocumentMoniker": "modpack\\appsettings.json",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\appsettings.json",
               "RelativeToolTip": "modpack\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -147,9 +146,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Controllers\\AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Controllers\\AdminUserController.cs",
               "RelativeDocumentMoniker": "modpackApi\\Controllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Controllers\\AdminUserController.cs",
               "RelativeToolTip": "modpackApi\\Controllers\\AdminUserController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,9 +158,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminImageCarousel\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminImageCarousel\\List.cshtml",
               "RelativeDocumentMoniker": "modpack\\Views\\AdminImageCarousel\\List.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminImageCarousel\\List.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminImageCarousel\\List.cshtml",
               "RelativeToolTip": "modpack\\Views\\AdminImageCarousel\\List.cshtml",
               "ViewState": "AQIAADAAAAAAAAAAAAAAACkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -171,9 +170,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "modpack\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Properties\\launchSettings.json",
               "RelativeToolTip": "modpack\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -183,9 +182,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Administrator.cs",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Models\\Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Models\\Administrator.cs",
               "RelativeDocumentMoniker": "modpackApi\\Models\\Administrator.cs",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\Models\\Administrator.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackApi\\Models\\Administrator.cs",
               "RelativeToolTip": "modpackApi\\Models\\Administrator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,9 +194,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "modpackFront\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "modpackFront\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -207,9 +206,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Login2.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminUser\\Login2.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminUser\\Login2.cshtml",
               "RelativeDocumentMoniker": "modpack\\Views\\AdminUser\\Login2.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminUser\\Login2.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminUser\\Login2.cshtml",
               "RelativeToolTip": "modpack\\Views\\AdminUser\\Login2.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -219,9 +218,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Controllers\\AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Controllers\\AdminUserController.cs",
               "RelativeDocumentMoniker": "modpack\\Controllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Controllers\\AdminUserController.cs",
               "RelativeToolTip": "modpack\\Controllers\\AdminUserController.cs",
               "ViewState": "AQIAALQAAAAAAAAAAAAuwL4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,13 +230,27 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "LoginJwt.cshtml",
-              "DocumentMoniker": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminUser\\LoginJwt.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminUser\\LoginJwt.cshtml",
               "RelativeDocumentMoniker": "modpack\\Views\\AdminUser\\LoginJwt.cshtml",
-              "ToolTip": "C:\\Users\\gn055\\OneDrive\\\u6587\u4EF6\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\Views\\AdminUser\\LoginJwt.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpack\\Views\\AdminUser\\LoginJwt.cshtml",
               "RelativeToolTip": "modpack\\Views\\AdminUser\\LoginJwt.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-30T01:42:25.049Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 121,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

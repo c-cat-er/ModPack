@@ -8899,23 +8899,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gn055\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio 2022\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\modpackFront.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\modpackFront.csproj",
       "projectName": "modpackFront",
-      "projectPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\modpackFront.csproj",
-      "packagesPath": "C:\\Users\\gn055\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\modpackFront.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\ModPack\\modpackFront\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio 2022\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gn055\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8924,9 +8924,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\gn055\\Downloads": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -9023,7 +9021,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
