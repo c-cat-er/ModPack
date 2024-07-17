@@ -6,7 +6,7 @@
 
 - 作者：我+3 人
 - 時間：2024-01 ~ 2024-03 開發的
-- [圖片瀏覽](https://github.com/c-cat-er/MyPublicWork/tree/main/program/iSpan/FinalWork/modpack_images)
+- [圖片瀏覽](https://github.com/c-cat-er/ModPack/tree/main/images)
 - 影片預覽：
 
 1. [-1](https://youtube.com/clip/UgkxlgAw5g9jDJqhSY6UffTJp1DeR1SfrYl8?si=N_eIJupCFEzPkbLl)
@@ -62,5 +62,5 @@
 
 # 或要看其他專案
 
-- [WinForm playfood 連結 1](https://github.com/c-cat-er/ModPack)
-- [WinForm playfood 連結 2]()
+- [WinForm playfood 連結 1](https://github.com/c-cat-er/playfood)
+- [WinForm playfood 連結 2](https://github.com/c-cat-er/playfood)
