@@ -1,4 +1,5 @@
 # 專案--期末專題作品--客製化背包電商網站 modpack
+[本人LINE](https://line.me/ti/p/0P9CIyIVhD)
 
 ## 介紹
 - 圖片瀏覽：[modpack_images](https://github.com/c-cat-er/MyPublicWork/tree/main/program/iSpan/FinalWork/modpack_images)。
