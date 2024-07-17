@@ -89,22 +89,22 @@ public partial class ModPackContext : DbContext
 
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Data Source=18.182.29.44,1433;Initial Catalog=ModPack;Persist Security Info=True;User ID=sa;Password=Sql23864520");
+//        => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=modpack;User ID=mac2;Password=Miracle/850630/;Connect Timeout=30");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Administrator>(entity =>
         {
-            entity.HasKey(e => e.AdministratorId).HasName("PK__Administ__ACDEFE33F0114A5B");
+            entity.HasKey(e => e.AdministratorId).HasName("PK__Administ__ACDEFE33B7C742FC");
 
             entity.ToTable("Administrator");
 
-            entity.HasIndex(e => e.Account, "UQ__Administ__B0C3AC46790858AE").IsUnique();
+            entity.HasIndex(e => e.Account, "UQ__Administ__B0C3AC460D29209B").IsUnique();
 
             entity.Property(e => e.AdministratorId).HasColumnName("AdministratorID");
             entity.Property(e => e.Account)
                 .IsRequired()
-                .HasMaxLength(10)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.AdminCode)
                 .IsRequired()
@@ -117,19 +117,19 @@ public partial class ModPackContext : DbContext
                 .HasMaxLength(10);
             entity.Property(e => e.Password)
                 .IsRequired()
-                .HasMaxLength(10)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.TitleId).HasColumnName("TitleID");
 
             entity.HasOne(d => d.Title).WithMany(p => p.Administrators)
                 .HasForeignKey(d => d.TitleId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Administr__Title__797DF6D1");
+                .HasConstraintName("FK__Administr__Title__37461F20");
         });
 
         modelBuilder.Entity<AdministratorActivitylog>(entity =>
         {
-            entity.HasKey(e => e.ActivitylogId).HasName("PK__Administ__7D9C74C76270AA25");
+            entity.HasKey(e => e.ActivitylogId).HasName("PK__Administ__7D9C74C75B25BD4B");
 
             entity.ToTable("AdministratorActivitylog");
 
@@ -141,12 +141,12 @@ public partial class ModPackContext : DbContext
             entity.HasOne(d => d.Administrator).WithMany(p => p.AdministratorActivitylogs)
                 .HasForeignKey(d => d.AdministratorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Administr__Admin__7A721B0A");
+                .HasConstraintName("FK__Administr__Admin__383A4359");
         });
 
         modelBuilder.Entity<AdministratorModification>(entity =>
         {
-            entity.HasKey(e => e.ModificationId).HasName("PK__Administ__A3FE5A126C6CBEF8");
+            entity.HasKey(e => e.ModificationId).HasName("PK__Administ__A3FE5A12E699C26F");
 
             entity.ToTable("AdministratorModification");
 
@@ -163,17 +163,17 @@ public partial class ModPackContext : DbContext
             entity.HasOne(d => d.Administrator).WithMany(p => p.AdministratorModificationAdministrators)
                 .HasForeignKey(d => d.AdministratorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Administr__Admin__7B663F43");
+                .HasConstraintName("FK__Administr__Admin__392E6792");
 
             entity.HasOne(d => d.Modifier).WithMany(p => p.AdministratorModificationModifiers)
                 .HasForeignKey(d => d.ModifierId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Administr__Modif__7C5A637C");
+                .HasConstraintName("FK__Administr__Modif__3A228BCB");
         });
 
         modelBuilder.Entity<AdministratorTitle>(entity =>
         {
-            entity.HasKey(e => e.TitleId).HasName("PK__Administ__757589E6E5DDE104");
+            entity.HasKey(e => e.TitleId).HasName("PK__Administ__757589E66CFEEC75");
 
             entity.ToTable("AdministratorTitle");
 
@@ -215,7 +215,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2B02A269FB");
+            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2B4B1D4ACC");
 
             entity.ToTable("Category");
 
@@ -233,7 +233,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Color>(entity =>
         {
-            entity.HasKey(e => e.ColorId).HasName("PK__Color__8DA7676D770FAEF6");
+            entity.HasKey(e => e.ColorId).HasName("PK__Color__8DA7676DB864B341");
 
             entity.ToTable("Color");
 
@@ -293,7 +293,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Credit>(entity =>
         {
-            entity.HasKey(e => e.CreditId).HasName("PK__Credit__ED5ED09B844498BE");
+            entity.HasKey(e => e.CreditId).HasName("PK__Credit__ED5ED09BB71EAD3E");
 
             entity.ToTable("Credit");
 
@@ -342,7 +342,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<CustomizedSpecification>(entity =>
         {
-            entity.HasKey(e => e.CustomizedSpecificationId).HasName("PK__Customiz__FF17316E152BC4C6");
+            entity.HasKey(e => e.CustomizedSpecificationId).HasName("PK__Customiz__FF17316E5CF588FD");
 
             entity.ToTable("CustomizedSpecification");
 
@@ -373,7 +373,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Favorite>(entity =>
         {
-            entity.HasKey(e => e.FavoritesId).HasName("PK__Favorite__0E6777956DD12CEB");
+            entity.HasKey(e => e.FavoritesId).HasName("PK__Favorite__0E677795642B5E21");
 
             entity.Property(e => e.FavoritesId).HasColumnName("FavoritesID");
             entity.Property(e => e.MemberId).HasColumnName("MemberID");
@@ -386,7 +386,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<FavoriteItem>(entity =>
         {
-            entity.HasKey(e => e.ItemsId).HasName("PK__Favorite__19AFB89EE4B28A4A");
+            entity.HasKey(e => e.ItemsId).HasName("PK__Favorite__19AFB89E4F9DDD0C");
 
             entity.Property(e => e.ItemsId).HasColumnName("ItemsID");
             entity.Property(e => e.CustomizedId).HasColumnName("CustomizedID");
@@ -401,7 +401,7 @@ public partial class ModPackContext : DbContext
             entity.HasOne(d => d.Favorites).WithMany(p => p.FavoriteItems)
                 .HasForeignKey(d => d.FavoritesId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__FavoriteI__Favor__0C90CB45");
+                .HasConstraintName("FK__FavoriteI__Favor__14270015");
 
             entity.HasOne(d => d.Inspiration).WithMany(p => p.FavoriteItems)
                 .HasForeignKey(d => d.InspirationId)
@@ -409,7 +409,7 @@ public partial class ModPackContext : DbContext
 
             entity.HasOne(d => d.Product).WithMany(p => p.FavoriteItems)
                 .HasForeignKey(d => d.ProductId)
-                .HasConstraintName("FK__FavoriteI__Produ__0E7913B7");
+                .HasConstraintName("FK__FavoriteI__Produ__160F4887");
         });
 
         modelBuilder.Entity<ImageCarousel>(entity =>
@@ -453,7 +453,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<InspirationSpecification>(entity =>
         {
-            entity.HasKey(e => e.InspirationSpecificationId).HasName("PK__Inspirat__157FB8207D1D39BB");
+            entity.HasKey(e => e.InspirationSpecificationId).HasName("PK__Inspirat__157FB820BE04BB7A");
 
             entity.ToTable("InspirationSpecification");
 
@@ -484,7 +484,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Material>(entity =>
         {
-            entity.HasKey(e => e.MaterialId).HasName("PK__Material__C5061317C7D7C9BC");
+            entity.HasKey(e => e.MaterialId).HasName("PK__Material__C50613176834BA51");
 
             entity.ToTable("Material");
 
@@ -538,7 +538,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<MemberActivitylog>(entity =>
         {
-            entity.HasKey(e => e.ActivitylogId).HasName("PK__MemberAc__7D9C74C7262774BE");
+            entity.HasKey(e => e.ActivitylogId).HasName("PK__MemberAc__7D9C74C79C66E546");
 
             entity.ToTable("MemberActivitylog");
 
@@ -651,7 +651,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<OrderStatus>(entity =>
         {
-            entity.HasKey(e => e.OrderStatusId).HasName("PK__OrderSta__BC674F418C8ADF85");
+            entity.HasKey(e => e.OrderStatusId).HasName("PK__OrderSta__BC674F41BAE179BF");
 
             entity.ToTable("OrderStatus");
 
@@ -676,7 +676,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.PaymentId).HasName("PK__Payment__9B556A587900FE8A");
+            entity.HasKey(e => e.PaymentId).HasName("PK__Payment__9B556A58B58B57F1");
 
             entity.ToTable("Payment");
 
@@ -688,7 +688,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<PaymentStatus>(entity =>
         {
-            entity.HasKey(e => e.PaymentStatusId).HasName("PK__PaymentS__34F8AC1FA0056FEC");
+            entity.HasKey(e => e.PaymentStatusId).HasName("PK__PaymentS__34F8AC1F75AFB013");
 
             entity.ToTable("PaymentStatus");
 
@@ -700,7 +700,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.ProductId).HasName("PK__Product__B40CC6ED9223C297");
+            entity.HasKey(e => e.ProductId).HasName("PK__Product__B40CC6ED1D883D39");
 
             entity.ToTable("Product");
 
@@ -723,17 +723,17 @@ public partial class ModPackContext : DbContext
             entity.HasOne(d => d.Promotion).WithMany(p => p.Products)
                 .HasForeignKey(d => d.PromotionId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Product__Promoti__218BE82B");
+                .HasConstraintName("FK__Product__Promoti__29221CFB");
 
             entity.HasOne(d => d.Status).WithMany(p => p.Products)
                 .HasForeignKey(d => d.StatusId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Product__StatusI__22800C64");
+                .HasConstraintName("FK__Product__StatusI__2A164134");
         });
 
         modelBuilder.Entity<ProductSpecification>(entity =>
         {
-            entity.HasKey(e => e.ProductSpecificationId).HasName("PK__ProductS__BAE4044DFC1998F6");
+            entity.HasKey(e => e.ProductSpecificationId).HasName("PK__ProductS__BAE4044D8212F5E4");
 
             entity.ToTable("ProductSpecification");
 
@@ -759,12 +759,12 @@ public partial class ModPackContext : DbContext
             entity.HasOne(d => d.Product).WithMany(p => p.ProductSpecifications)
                 .HasForeignKey(d => d.ProductId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ProductSp__Produ__26509D48");
+                .HasConstraintName("FK__ProductSp__Produ__2DE6D218");
         });
 
         modelBuilder.Entity<PromoCode>(entity =>
         {
-            entity.HasKey(e => e.PromoCodeId).HasName("PK__PromoCod__867BC5660C58363C");
+            entity.HasKey(e => e.PromoCodeId).HasName("PK__PromoCod__867BC566BD8BC9FF");
 
             entity.ToTable("PromoCode");
 
@@ -784,7 +784,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Promotion>(entity =>
         {
-            entity.HasKey(e => e.PromotionId).HasName("PK__Promotio__52C42F2F4C080ECC");
+            entity.HasKey(e => e.PromotionId).HasName("PK__Promotio__52C42F2F46C1B09F");
 
             entity.ToTable("Promotion");
 
@@ -796,7 +796,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<ServiceRecord>(entity =>
         {
-            entity.HasKey(e => e.RecordId).HasName("PK__ServiceR__FBDF78C94A7DD0C5");
+            entity.HasKey(e => e.RecordId).HasName("PK__ServiceR__FBDF78C9C24E990E");
 
             entity.ToTable("ServiceRecord");
 
@@ -814,7 +814,7 @@ public partial class ModPackContext : DbContext
 
             entity.HasOne(d => d.Administrator).WithMany(p => p.ServiceRecords)
                 .HasForeignKey(d => d.AdministratorId)
-                .HasConstraintName("FK__ServiceRe__Admin__2744C181");
+                .HasConstraintName("FK__ServiceRe__Admin__650CE9D0");
 
             entity.HasOne(d => d.Member).WithMany(p => p.ServiceRecords)
                 .HasForeignKey(d => d.MemberId)
@@ -824,7 +824,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Shipping>(entity =>
         {
-            entity.HasKey(e => e.ShippingId).HasName("PK__Shipping__5FACD4605E592EF8");
+            entity.HasKey(e => e.ShippingId).HasName("PK__Shipping__5FACD4607F77F72E");
 
             entity.ToTable("Shipping");
 
@@ -837,7 +837,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<ShippingStatus>(entity =>
         {
-            entity.HasKey(e => e.ShippingStatusId).HasName("PK__Shipping__16535FADE87378B6");
+            entity.HasKey(e => e.ShippingStatusId).HasName("PK__Shipping__16535FADBFB17B9E");
 
             entity.ToTable("ShippingStatus");
 
@@ -849,7 +849,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<Status>(entity =>
         {
-            entity.HasKey(e => e.StatusId).HasName("PK__Status__C8EE2043CA1176B2");
+            entity.HasKey(e => e.StatusId).HasName("PK__Status__C8EE20432B074F67");
 
             entity.ToTable("Status");
 
@@ -861,7 +861,7 @@ public partial class ModPackContext : DbContext
 
         modelBuilder.Entity<StoreLocation>(entity =>
         {
-            entity.HasKey(e => e.StoreLocationId).HasName("PK__StoreLoc__A130597CC8A6CC30");
+            entity.HasKey(e => e.StoreLocationId).HasName("PK__StoreLoc__A130597CD2E5CDD9");
 
             entity.ToTable("StoreLocation");
 

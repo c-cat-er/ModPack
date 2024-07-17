@@ -37,6 +37,7 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
   </ItemGroup>
   <ItemGroup Label="ProductSalesMLModel">
+    <None Include="efpt.config.json.user" />
     <None Include="ProductSalesMLModel.mlnet">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

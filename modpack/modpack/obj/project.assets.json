@@ -2896,19 +2896,6 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
-      "PagedList/1.17.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/PagedList.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net40/PagedList.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -8705,19 +8692,6 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "PagedList/1.17.0": {
-      "sha512": "Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
-      "type": "package",
-      "path": "pagedlist/1.17.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/PagedList.dll",
-        "lib/net40/PagedList.xml",
-        "pagedlist.1.17.0.nupkg.sha512",
-        "pagedlist.nuspec"
-      ]
-    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -10522,31 +10496,25 @@
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
       "Microsoft.PowerBI.Api >= 4.18.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
-      "PagedList >= 1.17.0",
       "X.PagedList >= 8.4.7",
       "X.PagedList.Mvc.Core >= 8.4.7",
       "modpackApi >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gn055\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpack\\modpack.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\modpack.csproj",
       "projectName": "modpack",
-      "projectPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpack\\modpack.csproj",
-      "packagesPath": "C:\\Users\\gn055\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpack\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\modpack.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gn055\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10554,15 +10522,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\gn055\\Downloads": {},
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpackApi\\modpackApi.csproj": {
-              "projectPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpackApi\\modpackApi.csproj"
+            "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\modpackApi.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackApi\\modpackApi.csproj"
             }
           }
         }
@@ -10640,10 +10608,6 @@
             "target": "Package",
             "version": "[8.0.2, )"
           },
-          "PagedList": {
-            "target": "Package",
-            "version": "[1.17.0, )"
-          },
           "X.PagedList": {
             "target": "Package",
             "version": "[8.4.7, )"
@@ -10675,17 +10639,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net8.0' 還原了套件 'PagedList 1.17.0'。此套件與您的專案並非完全相容。",
-      "libraryId": "PagedList",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

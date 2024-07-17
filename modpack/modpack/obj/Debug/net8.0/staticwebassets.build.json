@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O62XztS76vYmFa7f1R1y9gPSUhlcew6W2pyqxdc4RYM=",
+  "Hash": "tvczC77c6IG8GELXGR96eG4Zkv33Tq0aKB7yGD9ggss=",
   "Source": "modpack",
   "BasePath": "_content/modpack",
   "Mode": "Default",
@@ -2041,6 +2041,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\admin\\adm7da89.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\wwwroot\\images\\admin\\adm9a849.png",
+      "SourceId": "modpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\wwwroot\\",
+      "BasePath": "_content/modpack",
+      "RelativePath": "images/admin/adm9a849.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\adm9a849.png"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpack\\wwwroot\\images\\admin\\em1.jpeg",

@@ -2,7 +2,6 @@
    "CodeGenerationMode": 4,
    "ContextClassName": "ModPackContext",
    "ContextNamespace": null,
-   "DefaultDacpacSchema": null,
    "FilterSchemas": false,
    "IncludeConnectionString": true,
    "ModelNamespace": null,
@@ -156,8 +155,9 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "ec2amaz-4g553b2\\sqlexpress.ModPack.dbo",
+   "UiHint": null,
    "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDateOnlyTimeOnly": true,

@@ -2525,19 +2525,6 @@
           }
         }
       },
-      "PagedList/1.17.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/PagedList.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net40/PagedList.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.CodeDom/5.0.0": {
         "type": "package",
         "compile": {
@@ -7535,19 +7522,6 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "PagedList/1.17.0": {
-      "sha512": "Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
-      "type": "package",
-      "path": "pagedlist/1.17.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/PagedList.dll",
-        "lib/net40/PagedList.xml",
-        "pagedlist.1.17.0.nupkg.sha512",
-        "pagedlist.nuspec"
-      ]
-    },
     "System.CodeDom/5.0.0": {
       "sha512": "JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
       "type": "package",
@@ -8893,30 +8867,24 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.1",
-      "PagedList >= 1.17.0",
       "X.PagedList >= 8.4.7",
       "X.PagedList.Mvc.Core >= 8.4.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gn055\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpackFront\\modpackFront.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\modpackFront.csproj",
       "projectName": "modpackFront",
-      "projectPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpackFront\\modpackFront.csproj",
-      "packagesPath": "C:\\Users\\gn055\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gn055\\OneDrive\\文件\\GitHub\\ModPack\\modpackFront\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\modpackFront.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\MyPublicWork\\program\\iSpan\\FinalWork\\modpack\\modpackFront\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gn055\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8924,8 +8892,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\gn055\\Downloads": {},
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -8990,10 +8958,6 @@
             "target": "Package",
             "version": "[8.0.1, )"
           },
-          "PagedList": {
-            "target": "Package",
-            "version": "[1.17.0, )"
-          },
           "X.PagedList": {
             "target": "Package",
             "version": "[8.4.7, )"
@@ -9025,17 +8989,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net8.0' 還原了套件 'PagedList 1.17.0'。此套件與您的專案並非完全相容。",
-      "libraryId": "PagedList",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

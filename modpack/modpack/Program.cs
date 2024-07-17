@@ -43,7 +43,7 @@ namespace modpack
             {
                 option.AddPolicy(name: CorsPolicy, policy =>
                 {
-                    policy.WithOrigins("http://modpack.com:7252");
+                    policy.WithOrigins("http://localhost:7252");
                     policy.WithMethods("GET", "POST");
                     policy.AllowCredentials()
                     .AllowAnyHeader()

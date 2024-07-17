@@ -14,6 +14,7 @@ namespace modpack.Controllers
     {
         private readonly ModPackContext _context;
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly HttpClient _httpClient;
         private readonly string _apiUrl;
         private readonly IMapper _mapper;
 
@@ -22,6 +23,7 @@ namespace modpack.Controllers
         {
             _context = context;
 
+            _httpClient = new HttpClient();
             ///使用 httpClientFactory，可避免在應用程式中建立大量的 HttpClient 實例.
             ///清除默认请求头中的所有 Accept 头部.
             ///从 API 接收 JSON 格式的响应数据.
