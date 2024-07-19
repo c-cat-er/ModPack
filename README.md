@@ -67,3 +67,9 @@
 - [其他專案連結(更新或常態時不公開，若有收到連結請聯繫LINE或電話)](https://github.com/c-cat-er/MyPublicWork)
 - [web appo快捷]()
 - [web niko快捷]()
+
+## 我的專案發展史
+1. 2023-12 winform playfood
+2. 2024-01 ~ 2024-03 website modpack
+3. 2024-06 website booi
+4. 2024-07 website lodg
