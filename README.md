@@ -65,11 +65,11 @@
 - [WinForm playfood 連結 1](https://github.com/c-cat-er/playfood)
 - [WinForm playfood 連結 2](https://github.com/c-cat-er/playfood)
 - [其他專案連結(更新或常態時不公開，若有收到連結請聯繫LINE或電話)](https://github.com/c-cat-er/MyPublicWork)
-- [web booi快捷 (Web API + Web MVC)]()
-- [web lodg快捷 (Vuejs + Web API + Web MVC)]()
+- [web boha快捷 (Web API + Web MVC)]()
+- [web kico快捷 (Vuejs + Web API + Web MVC)]()
 
 ## 我的專案發展史
 1. 2023-12 winform playfood
 2. 2024-01 ~ 2024-03 website modpack
-3. 2024-06 website booi
-4. 2024-07 website lodg
+3. 2024-06 website boha
+4. 2024-07 website kico
