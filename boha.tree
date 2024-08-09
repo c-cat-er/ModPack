@@ -4,19 +4,17 @@ booi
 │   └── booi.clientN: .NET Core Web MVC。
 │
 ├── 開發流程概述:
-│   ├── 1. booi.Server EF Core Tool (所有資料只放在 booi.Server)。
-│   ├── 2. 配置 appsettings.json、Program.cs、UrlSettings.js。
-│   └── 3. 加入所需檔案。
+│   ├── 1. 建立 Db, Schema, Index。
+│   ├── 2. booi.Server EF Core Tool (所有資料只放在 booi.Server)。
+│   ├── 3. 基本配置。
+│   ├── 4. 創建所需檔案。
+│   └── 5. kico.Server use db Index or LINQ。
 │
 ├── 功能概述:
 │   ├── login
 │   │   ├── 基本驗證與通知
 │   │   ├── Jwt Token
-│   │   └── ..
-│   ├── booi
 │   │   ├── 表格動態更新、欄位正逆排序、頁跳轉
-│   │   └── ..
-│   ├── cal
 │   │   ├── 行事曆月 \ 週 \ 日切換
 │   │   ├── 行事曆動態更新
 │   │   ├── 事件視窗與通知

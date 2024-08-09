@@ -1,28 +1,26 @@
 kico
 ├── 專案架構概述:
 │   ├── kico.Server: .NET Core Web API。
-│   ├── kico.client: Vuejs。
+│   ├── kico.client: Vue3js。
 │   └── kico.Mana: .NET Core Web MVC。
 │
 ├── 開發流程概述:
-│   ├── 1. 建立 Db, Schema, Index, SP, TR。
+│   ├── 1. 建立 Db, Schema, Index, SP, TR...。
 │   ├── 2. kico.Server EF Core Tool (所有資料只放在 kico.Server)。
-│   ├── 3. 配置 appsettings.json、Program.cs、UrlSettings.js。
-│   ├── 4. 加入所需檔案。
+│   ├── 3. 基本配置。
+│   ├── 4. 創建所需檔案。
 │   └── 5. kico.Server use db Index or SP。
 │
 ├── 功能概述:
-│   ├── register \ login
+│   ├── register \ login \ Third第三方
 │   │   ├── 基本驗證與通知
+│   │   ├── use OAuth
 │   │   ├── use Jwt Token
 │   │   ├── use Sha3
-│   │   ├── use HttpOnly, Secure, js-cookie
-│   │   └── ..
-│   ├── kico
-│   │   ├── 表格動態更新、欄位正逆排序、頁跳轉
-│   │   └── ..
-│   ├── cal
-│   │   ├── 行事曆月 \ 週 \ 日切換
-│   │   ├── 行事曆動態更新
-│   │   ├── 事件視窗與通知
+│   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
+│   │   ├── use router
+│   │   ├── use pinia
+│   │   ├── use axiosInstrance
+│   │   ├── use pinia-plugin-persistedstate
+│   │   ├── use Vuetify
 │   │   └── ..
