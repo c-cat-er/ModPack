@@ -5,12 +5,6 @@ kico
 │   └── kico.Mana: .NET Core Web MVC。
 │
 ├── 開發流程概述:
-│   ├── 1. 建立 Db, Schema, Index, SP, TR...。
-│   ├── 2. kico.Server EF Core Tool (所有資料只放在此)
-│   ├── 3. 基本配置。
-│   ├── 4. 創建所需檔案。
-│   └── 5. kico.Server use LINQ or db Index or SP get dada。
-│開發流程:
 │   ├── db
 │   │   ├── use 遮罩隱藏員工表私密欄位
 │   │   ├── use AES 加密，員工表和會員表帳號和密碼。
@@ -20,6 +14,7 @@ kico
 │   │   ├── ng i other pack
 │   │   │   ├── Authentication.JwtBearer
 │   │   │   └── SHA3.Net
+│   │   ├── kico.Server use LINQ or db Index or SP get dada
 │   ├── Niseko.client
 │   │   ├── Vite
 │   │   ├── Vue Router
@@ -42,9 +37,11 @@ kico
 │   │   ├── use Jwt Token
 │   │   ├── use Sha3
 │   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
+│   ├── 首頁
+│   │   ├── cookie 儲存
 │   ├── 產品服務頁
 │   ├── 購物車
-│   │   ├── 
+│   │   ├── pinia 儲存
 │   │   ├── 
 │   │   └── ..
 │   ├── 會員後台
