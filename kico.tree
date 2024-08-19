@@ -10,7 +10,31 @@ kico
 │   ├── 3. 基本配置。
 │   ├── 4. 創建所需檔案。
 │   └── 5. kico.Server use LINQ or db Index or SP get dada。
-│
+│開發流程:
+│   ├── db
+│   │   ├── use 遮罩隱藏員工表私密欄位
+│   │   ├── use AES 加密，員工表和會員表帳號和密碼。
+│   │   ├── use Index、視圖、SP、TR。
+│   ├── Niseko.Server
+│   │   ├── EF Core Tool and ng i 3-db pack
+│   │   ├── ng i other pack
+│   │   │   ├── Authentication.JwtBearer
+│   │   │   └── SHA3.Net
+│   ├── Niseko.client
+│   │   ├── Vite
+│   │   ├── Vue Router
+│   │   ├── Pinia
+│   │   ├── Axios
+│   │   ├── Vue CLI Plugins:
+│   │   ├── @babel/core @babel/preset-env babel-loader --
+│   │   ├── eslint eslint-plugin-vue --save-dev
+│   │   ├── workbox-webpack-plugin --save-dev
+│   │   ├── Vuetify
+│   │   ├── vuetify@next vite-plugin-vuetify
+│   │   ├── @mdi/font
+│   │   ├── bootstrap-vue-next@latest bootstrap@latest
+│   │   ├── js-cookie
+
 ├── 功能概述:
 │   ├── register \ login \ Third第三方
 │   │   ├── 基本驗證與通知
