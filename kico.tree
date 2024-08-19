@@ -42,10 +42,17 @@ kico
 │   │   ├── use Jwt Token
 │   │   ├── use Sha3
 │   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
-│   ├── Vue3
-│   │   ├── use router
-│   │   ├── use pinia
-│   │   ├── use axiosInstrance
-│   │   ├── use pinia-plugin-persistedstate
-│   │   ├── use Vuetify
+│   ├── 產品服務頁
+│   ├── 購物車
+│   │   ├── 
+│   │   ├── 
 │   │   └── ..
+│   ├── 會員後台
+│   │   ├── DM
+│   │   ├── OM
+│   ├── 管理者後台
+│   │   ├── CMS
+│   │   ├── PMS
+│   │   ├── OMS
+
+
