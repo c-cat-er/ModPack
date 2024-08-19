@@ -6,6 +6,10 @@
 
 - 作者：我+3 人
 - 時間：2024-01 ~ 2024-03 開發的
+- 所用語言：C#、LINQ、css、bootstrap、javascript、jQuery。
+- 所用框架：.NET Core Web API + .NET Core Web MVC + Vuejs。
+- 所用資料庫：MSSQL。
+- 備註：前一份專案版本，內 url 皆為 host 自訂之名，故需先行變更 C:\Windows\System32\drivers\etc\hosts 的 # 127.0.0.1 和 # ::1 為 modpack.com 方可順利啟用。此版本已修復回，可直接啟動。
 - [圖片瀏覽](https://github.com/c-cat-er/ModPack/tree/main/images)
 - 影片預覽：
 
@@ -15,12 +19,7 @@
 4. [-4](https://youtube.com/clip/UgkxfSzs0K9cu64nsxCUk7AYbJe4t_wU9KTa?si=QIvGfPK7TLk-VQOm)
 5. [-5](https://youtube.com/clip/UgkxjajytInGkyi_TV6-wtrm2DpWDuPD6At5?si=FB0ONMIF1jCGyGFz)
 
-- 所用語言：C#、LINQ。
-- 所用框架：.NET Core Web API + .NET Core Web MVC + Vuejs。
-- 所用資料庫：MSSQL。
-- 備註：前一份專案版本，內 url 皆為 host 自訂之名，故需先行變更 C:\Windows\System32\drivers\etc\hosts 的 # 127.0.0.1 和 # ::1 為 modpack.com 方可順利啟用。此版本已修復回，可直接啟動。
 - 啟用帳密：
-
 1. 前台 A:test4 P:1234。
 2. 後台 A:mac P:1111。
 
@@ -28,8 +27,8 @@
 
 - 專管
 
-1. 使用 Draw.io、Git/Github/GitHub-Desktop/Git-Bash、UML。
-2. 參與 MS-SQL Server 資料表設計、建置與正規化。
+1. 使用 sheet、Draw.io、Git/Github/GitHub-Desktop/Git-Bash、UML 協同開發。
+2. 共同資料表設計、建置與正規化。
 
 - modpack 後台
 
@@ -68,8 +67,8 @@
 - [web boha快捷 (Web API + Web MVC)]()
 - [web kico快捷 (Vuejs + Web API + Web MVC)]()
 
-## 我的專案發展史
+## 我的專案開發史
 1. 2023-12 winform playfood
 2. 2024-01 ~ 2024-03 website modpack
 3. 2024-06 website boha
-4. 2024-07 website kico
+4. 2024-07 ~ website kico
