@@ -6,10 +6,10 @@ kico
 │
 ├── 開發流程概述:
 │   ├── 1. 建立 Db, Schema, Index, SP, TR...。
-│   ├── 2. kico.Server EF Core Tool (所有資料只放在 kico.Server)。
+│   ├── 2. kico.Server EF Core Tool (所有資料只放在此)
 │   ├── 3. 基本配置。
 │   ├── 4. 創建所需檔案。
-│   └── 5. kico.Server use db Index or SP。
+│   └── 5. kico.Server use LINQ or db Index or SP get dada。
 │
 ├── 功能概述:
 │   ├── register \ login \ Third第三方
@@ -18,6 +18,7 @@ kico
 │   │   ├── use Jwt Token
 │   │   ├── use Sha3
 │   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
+│   ├── Vue3
 │   │   ├── use router
 │   │   ├── use pinia
 │   │   ├── use axiosInstrance
