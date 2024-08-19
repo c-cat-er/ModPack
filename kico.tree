@@ -7,7 +7,7 @@ kico
 ├── 開發流程概述:
 │   ├── db
 │   │   ├── use 遮罩隱藏員工表私密欄位
-│   │   ├── use AES 加密，員工表和會員表帳號和密碼。
+│   │   ├── use AES 加密
 │   │   ├── use Index、視圖、SP、TR。
 │   ├── Niseko.Server
 │   │   ├── EF Core Tool and ng i 3-db pack
@@ -31,25 +31,25 @@ kico
 │   │   ├── js-cookie
 
 ├── 功能概述:
-│   ├── register \ login \ Third第三方
-│   │   ├── 基本驗證與通知
-│   │   ├── use OAuth
-│   │   ├── use Jwt Token
-│   │   ├── use Sha3
-│   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
-│   ├── 首頁
-│   │   ├── cookie 儲存
-│   ├── 產品服務頁
-│   ├── 購物車
-│   │   ├── pinia 儲存
-│   │   ├── 
-│   │   └── ..
-│   ├── 會員後台
-│   │   ├── DM
-│   │   ├── OM
-│   ├── 管理者後台
-│   │   ├── CMS
-│   │   ├── PMS
-│   │   ├── OMS
-
+│   ├── 前端 Vue3
+│   │   ├── register \ login \ Third第三方
+│   │   │   ├── 基本驗證與通知
+│   │   │   ├── use Jwt Token
+│   │   │   ├── use OAuth
+│   │   │   ├── use Sha3
+│   │   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
+│   │   ├── 首頁
+│   │   │   ├── cookie storage
+│   │   ├── 產品服務頁
+│   │   ├── 購物車
+│   │   │   ├── pinia storage
+│   │   │   ├── 藍星、綠界串接
+│   │   │   └── ..
+│   │   ├── 會員後台
+│   │   │   ├── DM
+│   │   │   ├── OM
+│   ├── 後台 進行中..
+│   │   │   ├── CMS
+│   │   │   ├── PMS
+│   │   │   ├── OMS
 
