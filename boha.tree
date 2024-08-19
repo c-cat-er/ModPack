@@ -1,21 +1,23 @@
-booi
+boha
 ├── 專案架構概述:
-│   ├── booi.Server: .NET Core Web API。
-│   └── booi.clientN: .NET Core Web MVC。
+│   ├── boha.Server: .NET Core Web API。
+│   └── boha.clientN: .NET Core Web MVC。
 │
 ├── 開發流程概述:
 │   ├── 1. 建立 Db, Schema, Index。
-│   ├── 2. booi.Server EF Core Tool (所有資料只放在 booi.Server)。
+│   ├── 2. boha.Server EF Core Tool (所有資料只放在此)。
 │   ├── 3. 基本配置。
-│   ├── 4. 創建所需檔案。
-│   └── 5. kico.Server use db Index or LINQ。
-│
+│   ├── 4. 創建所需檔案，使用 css、bootstrap、javascript、jQuery、C#、LINQ。
+
 ├── 功能概述:
 │   ├── login
 │   │   ├── 基本驗證與通知
 │   │   ├── Jwt Token
-│   │   ├── 表格動態更新、欄位正逆排序、頁跳轉
-│   │   ├── 行事曆月 \ 週 \ 日切換
-│   │   ├── 行事曆動態更新
-│   │   ├── 事件視窗與通知
+│   ├── 其他頁
+│   │   ├── 四個輸入框任一資料篩選與表格動態更新。
+│   │   ├── 表格欄位正逆排序、頁跳轉
+│   │   ├── 日曆動態更新。
+│   │   ├── 日曆月 \ 週 \ 日與切換。
+│   │   ├── 
+│   │   ├── 日曆事件視窗與通知。
 │   │   └── ..
