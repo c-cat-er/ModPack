@@ -1,0 +1,129 @@
+//以下是我至今所學編程相關
+├── MyProject //我寫過的專案
+│   ├── PlayFood (WinForms)
+│   ├── ModPack Website (ASP.NET Core + MVC)
+│   ├── boha (ASP.NET Core + MVC)
+│   └── kico (ASP.NET Core + MVC + Vuejs)
+├── Document //我寫過的文檔 (工作堪用，可能非正式)
+│   ├── 網站開發案估價單
+│   ├── Development Document
+│   ├── API Document
+│   ├── User Document
+│   ├── Testing Document
+│   ├── Maintenance Document
+│   └── ..
+├── basic Tools //我會的基本工具
+│   ├── 專管
+│   │   ├── sheet
+│   │   ├── UML drawing
+│   │   ├── Notion
+│   │   └── ..
+│   └── UI\UX
+│       ├── Draw.io
+│       ├── Figma
+│       └── ..
+├── Git Family
+│   ├── 基本 Git-Bash 指令
+│   ├── GitHub, GitHub-Desktop
+│   ├── GitLab
+│   └── GitHub Action
+├── Front-end
+│   ├── Language
+│   │   ├── HTML4/5
+│   │   ├── CSS3
+│   │   ├── JavaScript
+│   │   ├── SVG
+│   │   └── .. 
+│   ├── library
+│   │   ├── Bootstrap
+│   │   ├── jQuery
+│   │   └── ..
+│   ├── Framework
+│   │   ├── Vue3js
+│   │   └── ..
+│   ├── Package
+│   │   ├── Select2
+│   │   ├── DataTables
+│   │   ├── Moment.js
+│   │   ├── Flatpickr
+│   │   ├── FullCalendar
+│   │   ├── Chartjs
+│   │   ├── Swiper
+│   │   ├── FullPage.js
+│   │   ├── Lax.js
+│   │   ├── SweetAlert2
+│   │   └── ..
+│   ├── Storage method
+│   │   ├── Query String
+│   │   ├── localStorage, SessionStorage
+│   │   ├── Model
+│   │   ├── Cookies
+│   │   └── ..
+│   ├── 認證
+│   │   ├── Session
+│   │   ├── JWT
+│   │   ├── OAuth2 third
+│   │   └── ..
+│   └── Other
+│       ├── Chrome DevTools //未完
+│       ├── use Axios, Fetch-API, AJAX
+│       ├── make RWD
+│       ├── 基本 SEO
+│       └── ..
+├── Back-end
+│   ├── Language
+│   │   ├── C#
+│   │   ├── LINQ
+│   │   ├── HTML Helpers, Razor
+│   │   ├── Python
+│   │   └── ..
+│   ├── library
+│   │   ├── NumPy, Pandas
+│   │   └── ..
+│   ├── Framework
+│   │   ├── WinForms
+│   │   ├── ADO.NET
+│   │   ├── ASP.NET
+│   │   ├── .NET Core Web MVC
+│   │   └── Flask, Django
+│   ├── Package
+│   │   ├── NLog
+│   │   ├── AutoMapper
+│   │   ├── PageList //僅基本 未完
+│   │   ├── Power-BI
+│   │   ├── SignalR
+│   │   └── ..
+│   ├── Storage method
+│   │   ├── TempData, ViewBag, ViewData
+│   │   ├── JWT Token
+│   │   ├── file
+│   │   └── ..
+│   └── Other
+│       ├── ORM EF Core Tool
+│       ├── Partial View skill
+│       └── HttpClientFactory skill
+├── API
+│   ├── RESTful-API
+│   ├── GraphQL-API
+│   ├── 第三方 API 串接
+│   └── ..
+├── Testing
+│   ├── Project Type
+│   │   ├── NUnit //未完
+│   │   ├── 
+│   │   └── ..
+│   ├── Package
+│   │   ├── Moq
+│   │   └── ..
+│   └── Tools
+│       ├── Selenium\js
+│       └── ..
+├── CI\CD & Auto-Tools
+│   ├── GitHub Actions //未完
+│   └── ..
+├── 部屬
+│   ├── IIS .NET 架站與故障排除
+│   └── HTTPS/SSL
+├── 其他
+│   ├── C# 爬蟲
+│   └── ..
