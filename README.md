@@ -3,7 +3,6 @@
 [本人 LINE](https://line.me/ti/p/0P9CIyIVhD)
 
 ## 介紹
-
 - 作者：我+3 人
 - 時間：2024-01 ~ 2024-03 開發的
 - 所用語言：C#、LINQ、css、bootstrap、javascript、jQuery。
@@ -12,7 +11,6 @@
 - 備註：前一份專案版本，內 url 皆為 host 自訂之名，故需先行變更 C:\Windows\System32\drivers\etc\hosts 的 # 127.0.0.1 和 # ::1 為 modpack.com 方可順利啟用。此版本已修復回，可直接啟動。
 - [圖片瀏覽](https://github.com/c-cat-er/ModPack/tree/main/images)
 - 影片預覽：
-
 1. [-1](https://youtube.com/clip/UgkxlgAw5g9jDJqhSY6UffTJp1DeR1SfrYl8?si=N_eIJupCFEzPkbLl)
 2. [-2](https://youtube.com/clip/UgkxKdq9HAPkYTYCaAron5E3FRTEyuzmal-P?si=lptl0Bh_sbRphCKk)
 3. [-3](https://youtube.com/clip/UgkxufyE_C1COCw1fIsYwZ8zbPY4nDqpQZpe?si=X-y9RUBYOBQonTCP)
@@ -24,14 +22,11 @@
 2. 後台 A:mac P:1111。
 
 ## 我負責部分
-
 - 專管
-
 1. 使用 sheet、Draw.io、Git/Github/GitHub-Desktop/Git-Bash、UML 協同開發。
 2. 共同資料表設計、建置與正規化。
 
 - modpack 後台
-
 1. AdminUser 員工後台登入所有相關<br>
    1.1. 基本登入驗證，和使用 Session 緩存登入狀態。(含 JWT-api)
 2. AdminEmployeeInfo 員工資料管理所有相關<br>
@@ -47,25 +42,27 @@
    6.1. 基本 RestfulAPI CRUD。
 
 - modpackApi
-
 1. JWT Token API
 2. RESTful API
 3. StoreLocationsDTO API
 
 - modpackFront 前台
-
 1. HomeController 首頁部分相關<br>
    1.1. Home 首頁*輪播圖：使用 SignalR 接收後端通知來即時更新圖片和文字。<br>
    1.2. 首頁*產品列表(加載更多)：使用 Fetch-API & json 動態添加可設置數量的產品列表。 <br>
    1.3. Service 即時客服頁：使用 SignalR 即時傳信息到後台。
 
-# 或要看其他專案
+# 其他補充
+## 我的相關所學
+- [資料庫相關所學](https://github.com/c-cat-er/ModPack)
+- [編程相關所學](https://github.com/c-cat-er/ModPack)
 
+# 或要看其他專案
 - [WinForm playfood 連結 1](https://github.com/c-cat-er/playfood)
 - [WinForm playfood 連結 2](https://github.com/c-cat-er/playfood)
 - [其他專案連結(更新或常態時不公開，若有收到連結請聯繫LINE或電話)](https://github.com/c-cat-er/MyPublicWork)
-- [web boha快捷 (Web API + Web MVC)]()
-- [web kico快捷 (Vuejs + Web API + Web MVC)]()
+- [website boha 概述快捷 (Web API + Web MVC)](https://github.com/c-cat-er/playfood)
+- [website kico 概述快捷 (Vue3js + Web API + Web MVC)](https://github.com/c-cat-er/playfood)
 
 ## 我的專案開發史
 1. 2023-12 winform playfood
