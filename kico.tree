@@ -9,47 +9,29 @@ kico
 │   │   ├── use 遮罩隱藏員工表私密欄位
 │   │   ├── use AES 加密
 │   │   ├── use Index、視圖、SP、TR。
-│   ├── Niseko.Server
+│   ├── kico.Server
 │   │   ├── EF Core Tool and ng i 3-db pack
 │   │   ├── ng i other pack
-│   │   │   ├── Authentication.JwtBearer
-│   │   │   └── SHA3.Net
-│   │   ├── kico.Server use LINQ or db Index or SP get dada
-│   ├── Niseko.client
-│   │   ├── Vite
-│   │   ├── Vue Router
-│   │   ├── Pinia
-│   │   ├── Axios
-│   │   ├── Vue CLI Plugins:
-│   │   ├── @babel/core @babel/preset-env babel-loader --
-│   │   ├── eslint eslint-plugin-vue --save-dev
-│   │   ├── workbox-webpack-plugin --save-dev
-│   │   ├── Vuetify
-│   │   ├── vuetify@next vite-plugin-vuetify
-│   │   ├── @mdi/font
-│   │   ├── bootstrap-vue-next@latest bootstrap@latest
-│   │   ├── js-cookie
-
+│   │   │   ├── Authentication.JwtBearer (Jwt token)
+│   │   │   ├── SHA3.Net (加解密)
+│   │   │   └── automap
+│   │   └── use LINQ or db Index or SP get dada
+│   └── kico.client
+│       ├── Vite
+│       ├── Vue Router, router-view
+│       ├── pinia, pinia-plugin-persistedstate
+│       ├── Axios, axiosInstance
+│       ├── Vuetify, mdi
+│       ├── js-cookie, jwt-decode
+│       └── 自訂 config 管理
 ├── 功能概述:
-│   ├── 前端 Vue3
-│   │   ├── register \ login \ Third第三方
-│   │   │   ├── 基本驗證與通知
-│   │   │   ├── use Jwt Token
-│   │   │   ├── use OAuth
-│   │   │   ├── use Sha3
-│   │   │   ├── use HttpOnly, Secure, js-cookie, jwtDecode
-│   │   ├── 首頁
-│   │   │   ├── cookie storage
-│   │   ├── 產品服務頁
-│   │   ├── 購物車
-│   │   │   ├── pinia storage
-│   │   │   ├── 藍星、綠界串接
-│   │   │   └── ..
-│   │   ├── 會員後台
-│   │   │   ├── DM
-│   │   │   ├── OM
-│   ├── 後台 進行中..
+│   ├── client Vue3
+│   │   ├── 官網註冊\登入 (Jwt token, SHA3, )
+│   │   ├── 第三方登入 (OAuth)
+│   │   ├── product page
+│   │   ├── shopping page
+│   │   └── paypal cash
+│   ├── back MVC (unf)
 │   │   │   ├── CMS
 │   │   │   ├── PMS
 │   │   │   ├── OMS
-
