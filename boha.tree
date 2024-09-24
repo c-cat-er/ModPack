@@ -5,19 +5,15 @@ boha
 │
 ├── 開發流程概述:
 │   ├── 1. 建立 Db, Schema, Index。
-│   ├── 2. boha.Server EF Core Tool (所有資料只放在此)。
+│   ├── 2. boha.Server EF Core Tool (所有資料只放此)。
 │   ├── 3. 基本配置。
-│   ├── 4. 創建所需檔案，使用 css、bootstrap、javascript、jQuery、C#、LINQ。
-
+│   └── 4. 創建所需檔案，使用 css、bootstrap、javascript、jQuery、C#、LINQ。
 ├── 功能概述:
-│   ├── login
-│   │   ├── 基本驗證與通知
-│   │   ├── Jwt Token
-│   ├── 其他頁
-│   │   ├── 四個輸入框任一資料篩選與表格動態更新。
-│   │   ├── 表格欄位正逆排序、頁跳轉
-│   │   ├── 日曆動態更新。
-│   │   ├── 日曆月 \ 週 \ 日與切換。
-│   │   ├── 
-│   │   ├── 日曆事件視窗與通知。
+│   ├── client
+│   │   ├── register\login Jwt token 基本驗證與通知
+│   │   ├── 多篩選區自動表格刷新
+│   │   ├── 表格欄位正逆排序與頁跳轉
+│   │   ├── 月曆動態刷新
+│   │   ├── 月曆顯示，月\週\日切換
+│   │   ├── 月曆事件視窗與通知
 │   │   └── ..

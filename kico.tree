@@ -21,15 +21,16 @@ kico
 │       ├── Vue Router, router-view
 │       ├── pinia, pinia-plugin-persistedstate
 │       ├── Axios, axiosInstance
-│       ├── Vuetify, mdi
+│       ├── Vuetify, bootstrap-vue-next, mdi
 │       ├── js-cookie, jwt-decode
 │       └── 自訂 config 管理
 ├── 功能概述:
 │   ├── client Vue3
-│   │   ├── 官網註冊\登入 (Jwt token, SHA3, )
+│   │   ├── 官網註冊\登入 (Jwt token, SHA3, salt)
 │   │   ├── 第三方登入 (OAuth)
-│   │   ├── product page
-│   │   ├── shopping page
+│   │   ├── 動態時區, 國際圖標 (unf)
+│   │   ├── product page, Filter.vue, Select.vue, 隨螢幕滾動
+│   │   ├── shopping page, payment page, 動態 header
 │   │   └── paypal cash
 │   ├── back MVC (unf)
 │   │   │   ├── CMS
